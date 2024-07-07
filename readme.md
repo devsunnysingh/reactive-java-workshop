@@ -26,7 +26,7 @@ Credits: https://github.com/koushikkothagal/reactive-java-workshop
 1. Places where Data scale is high.
 2. High number of users.
 3. High availability.
-4. Reduce cost, especially when we don't have our own infrastructure.
+4. Reduce cost, especially when we don't have our own infrastructures.
 
 # 2 types of Scaling
 
