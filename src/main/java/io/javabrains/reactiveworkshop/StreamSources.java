@@ -15,6 +15,9 @@ public class StreamSources {
     }
 
     public static Stream<Integer> intNumbersStream() {
+        System.out.println("This is what it does");
+        System.out.println(Stream.iterate(0, i -> i + 2)
+                .limit(10));
         return Stream.iterate(0, i -> i + 2)
                 .limit(10);
     }
